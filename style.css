@@ -3,6 +3,7 @@
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
+  --small: .5rem;
 
 
 
@@ -103,7 +104,7 @@ ul li a:active {
 
 /* ************************************************************************************ */
 .hero {
-  background-image: url("./assets/hero_1.jpg");
+  background-image: url("./assets/hero_1920px.jpg");
   margin: 0 auto;
   width: 100vw;
   height: 80vh;
@@ -314,9 +315,22 @@ ul li a:active {
   text-align: center;
 }
 
-
-
-
 /* ************************************************************************************ */
+footer{
+  padding: var(--spacing-vertical) var(--spacing-horizontal);
+}
+footer > div:nth-child(1){
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:var(--spacing-vertical);
+}
+footer > div:nth-child(2){
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+footer > div:nth-child(2) > p{
+  font-size: var(--small);
+}
 /* ************************************************************************************ */
 /* ************************************************************************************ */
