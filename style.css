@@ -131,7 +131,8 @@ header {
   width: 100px;
   max-height:0px;
   overflow:hidden;
-  padding: 1em .5em .5em .5em;
+  padding: 1.5em .5em .5em .5em;
+  word-wrap: break-word;
   background: #ffffff;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -139,6 +140,21 @@ header {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   font-size: var(--small);
+}
+
+.form-response-modal{
+  position:absolute;
+  width: 490px;
+  height:max-content;
+  border-radius: 5px;
+  padding:4em;
+  color:#fffdfd;
+  background-color: var(--btn-blue);
+  cursor:pointer;
+  top:50%;
+  left:50%;
+
+  transform: translate(-50%, -50%);
 }
 
 
@@ -417,6 +433,7 @@ ul li a:hover {
   color: var(--offWhite);
   padding: var(--spacing-vertical) var(--spacing-horizontal);
   line-height: var(--para-line-height);
+  position: relative;
 }
 
 .sec-6>div {
