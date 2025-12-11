@@ -2,7 +2,7 @@ window.addEventListener("scroll", () => {
 
   // let hero = document.querySelector("#hero");
   let header = document.querySelector("#header");
-  let fixedTopBottomBtn = document.querySelector("#toTop");
+  let fixedTopBottomBtn = document.querySelector("#scroll-indicator");
 
   let topOfHeaderPos = header.getBoundingClientRect()
 

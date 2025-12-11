@@ -40,7 +40,7 @@ class PopOutMsg {
 //2.-POM-- Messege repository for POM
 let messages = [
   { targetId: 'logo', msg: 'I used this logo as the basis for my design. I tend to do this when Im looking for a launching point to create.' },
-  { targetId: 'toTop', msg: 'I had a hard time with this functionality. But after utilizing <code>scroll</code> event listener, <code>getBoundingClientRect()</code> function and <code>anchor</code> tags, I was able to make it happen.' },
+  { targetId: 'scroll-indicator', msg: 'I had a hard time with this functionality. But after utilizing <code>scroll</code> event listener, <code>getBoundingClientRect()</code> function and <code>anchor</code> tags, I was able to make it happen.' },
   { targetId: 'explaination', msg: 'Hello potential employer. Here is where I explain my thought process. Just hover over certain elements of the page to read about it.' },
   { targetId: 'hero-text', msg: 'I chose to use this background photo in the hero section because it immediately catches the users attention. I wanted to play off the colors in the logo. Using text shadow allowed for the text overlay to stand out from the background. I optimized the photo and brought it down to 1MB for its original 3.3MB.' },
   { targetId: 'sec-6', msg: 'After submitting form, input data doesn\'t save in DB but rather sanitized and processed with PHP. The modal indicates data was received. To prevent the modal from showing again upon refresh, I used <code>window.history.replaceState()</code> function to remove the query params. The modal only displays if the query params are populated with data sent to backend via form submit.' },
